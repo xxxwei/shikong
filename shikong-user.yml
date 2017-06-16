@@ -9,4 +9,4 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
 mybatis:
   mapper-locations:
-    - com.shikong.user.mapper.UserMapper.xml
+    - com/shikong/user/mapper/*.xml
